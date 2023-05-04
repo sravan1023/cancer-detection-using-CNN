@@ -123,7 +123,13 @@ if wav is not None:
     #ans = st.write(model(torch.tensor([wav])))
     st.write('The model predicts', 'that the sample is cancer positive' if ans == 1 else 'the sample doesn\'t have Cancer')
     
-    st.sidebar.header("Navigation")
+st.markdown("""
+        <style>
+            .css-znku1z.e16nr0p33 {
+              margin-top: -75px;
+              }
+         </style>
+      """, unsafe_allow_html=True)
 
 st.sidebar.title("Sidebar")
 
