@@ -98,7 +98,7 @@ image = Image.open("istockphoto-531314246-612x612.jpg")
 st.set_page_config(page_title="Histopathological Cancer Detection")
 
 # Divide page into two columns
-col1, col2 = st.beta_columns([1, 2])
+col1, col2 = st.columns([1, 2])
 with col1:
     st.image(image, use_column_width=True)
 
