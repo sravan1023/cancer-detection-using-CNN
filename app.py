@@ -92,7 +92,7 @@ def preprocess(data):
     return load_inp
 
 st.title("Histopathological Cancer Detection")
-st.markdown("For Histopathological Cancer from .tif images using a Convoluted Neural Network, implemented with PyTorch!")
+st.markdown("Histopathological Cancer using a Convoluted Neural Network")
 
 wav = st.file_uploader("Upload your Image file (TIF)",type = ['tif'])
 if wav is not None:
