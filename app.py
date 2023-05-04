@@ -91,7 +91,20 @@ def preprocess(data):
     #image = Transformations(np.array(Image.open(data)))
     return load_inp
 
-st.title("Histopathological Cancer Detection")
+
+from PIL import Image
+image = Image.open("531314246-612x612.jpg")
+
+st.set_page_config(page_title="Histopathological Cancer Detection")
+
+# Divide page into two columns
+col1, col2 = st.beta_columns([1, 2])
+with col1:
+    st.image(image, use_column_width=True)
+
+with col2:
+    st.title("Histopathological Cancer Detection")
+
 st.markdown("Histopathological Cancer using a Convoluted Neural Network")
 
 wav = st.file_uploader("Upload your Image file (TIF)",type = ['tif'])
