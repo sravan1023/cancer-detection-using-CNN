@@ -137,6 +137,6 @@ st.sidebar.info("• The code for the app is open-source and available on Github
 
 # Add a section for collaboration
 st.sidebar.subheader("Collaborator")
-st.sidebar.caption("Ch.Sravya- chayanam.nagasravya20@ifheindia.org")
+st.sidebar.write("Ch.Sravya- chayanam.nagasravya20@ifheindia.org")
 st.sidebar.caption("• If you have any questions, feel free to contact")
 st.sidebar.caption("• We welcome any feedback or suggestions for improvement!")
