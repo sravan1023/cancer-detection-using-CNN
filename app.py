@@ -124,7 +124,9 @@ if wav is not None:
     st.write('The model predicts', 'that the sample is cancer positive' if ans == 1 else 'the sample doesn\'t have Cancer')
     
     st.sidebar.header("Navigation")
-    
+
+st.sidebar.title("Sidebar")
+
 st.sidebar.subheader("Github")
 st.sidebar.markdown('https://github.com/sravan1023/cancer-detection')
 
