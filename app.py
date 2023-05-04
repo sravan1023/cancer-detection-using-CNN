@@ -94,7 +94,7 @@ def preprocess(data):
 
 from PIL import Image
 image = Image.open("istockphoto-531314246-612x612.jpg")
-st.image(width=400)
+st.image(width=300)
 
 st.set_page_config(page_title="Histopathological Cancer Detection")
 
