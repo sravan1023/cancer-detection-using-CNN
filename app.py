@@ -126,7 +126,7 @@ if wav is not None:
     st.sidebar.header("Navigation")
     
     
- st.sidebar.subheader("Github")
+st.sidebar.subheader("Github")
 st.sidebar.markdown('https://github.com/sravan1023/cancer-detection')
 
 # Add a section for key takeaways
