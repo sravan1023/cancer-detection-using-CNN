@@ -122,3 +122,18 @@ if wav is not None:
             _,ans = torch.max(model(img).data,1)
     #ans = st.write(model(torch.tensor([wav])))
     st.write('The model predicts', 'that the sample is cancer positive' if ans == 1 else 'the sample doesn\'t have Cancer')
+    
+    st.sidebar.header("Navigation")
+
+# Add a section for key takeaways
+st.sidebar.subheader("Key Takeaways")
+st.sidebar.write("• The app is a Convolutional Neural Network (CNN) model that predicts whether a microscopic tissue is cancerous or not with an accuracy of over 84%.")
+st.sidebar.write("• Users can upload an image to the app and receive a prediction.")
+st.sidebar.write("• This project is a college project and not intended for real-world applications")
+st.sidebar.write("• The code for the app is open-source and available on Github for further development and collaboration.")
+
+# Add a section for collaboration
+st.sidebar.subheader("Collaborator")
+st.sidebar.write("Ch.Sravya- chayanam.nagasravya20@ifheindia.org")
+st.sidebar.write("• If you have any questions, feel free to contact")
+st.sidebar.write("• We welcome any feedback or suggestions for improvement!")
