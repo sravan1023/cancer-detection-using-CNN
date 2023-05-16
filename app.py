@@ -108,7 +108,7 @@ st.markdown("Histopathological Cancer using a Convoluted Neural Network")
 
 wav = st.file_uploader("Upload your Image file (TIF)",type = ['tif'])
 if wav is not None:
-    st.image(Image.open(wav),width = 300)
+    st.image(Image.open(wav),width = 200)
     wav = preprocess(wav)
     model = CNN()
     model.load_state_dict(torch.load(path_to_model,map_location=torch.device('cpu')))
