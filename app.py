@@ -139,7 +139,7 @@ st.sidebar.markdown('https://github.com/sravan1023/cancer-detection')
 st.sidebar.subheader("Key Takeaways")
 st.sidebar.info("• The app is a Convolutional Neural Network (CNN) model that predicts whether a microscopic tissue is cancerous or not with an accuracy of over 84%.")
 st.sidebar.info("• Users can upload an image to the app and receive a prediction.")
-st.sidebar.info("• This project is a college project and not intended for real-world applications")
+st.sidebar.info("• This is a university project and not intended for real-world applications")
 st.sidebar.info("• The code for the app is open-source and available on Github for further development and collaboration.")
 
 # Add a section for collaboration
