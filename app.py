@@ -106,7 +106,7 @@ with col2:
 
 st.markdown("Histopathological Cancer using a Convoluted Neural Network")
 
-wav = st.file_uploader("Upload your Image file (TIF)",type = ['tif'])
+wav = st.file_uploader("Upload your Image file (TIF or PNG)",type = ['tif', 'png'])
 if wav is not None:
     st.image(Image.open(wav),width = 200)
     wav = preprocess(wav)
